@@ -4,19 +4,29 @@
 @import "import/homepage";
 */
 body {
-  background: green; }
+  background: #000;
+  font-family: 'Lora', sans-serif;
+  color: #FFF; }
 
-.nav .menu-item-has-children > .sub-menu {
-  display: none; }
-.nav .menu-item-has-children:hover > .sub-menu {
-  display: block; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800; }
+
+.nav {
+  font-family: 'Open Sans', sans-serif; }
+  .nav .menu-item-has-children > .sub-menu {
+    display: none; }
+  .nav .menu-item-has-children:hover > .sub-menu {
+    display: block; }
 
 body {
   font-size: 20px;
   line-height: 120%; }
-
-.header {
-  background: #2C3B41; }
 
 .hamburger {
   position: absolute;

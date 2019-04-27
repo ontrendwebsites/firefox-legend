@@ -17,6 +17,7 @@ sidebars, comments, etc.
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 function my_theme_enqueue_styles() {
   wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css', '', false );
+  wp_enqueue_style( 'google-fonts', 'http://fonts.googleapis.com/css?family=Archivo+Black|Lora:400,700|Open+Sans:400,800', false );
   wp_enqueue_style( 'normalize-css', get_stylesheet_directory_uri() . '/library/css/normalize.css', '', false );
   wp_enqueue_style( 'hamburger-css', get_stylesheet_directory_uri() . '/library/css/hamburgers.css', '', false );
   wp_enqueue_style( 'ontrend-css', get_stylesheet_directory_uri() . '/library/css/ontrend.css?v=3', '', false ); // false adds it to head
